@@ -1,0 +1,11 @@
+.stage { position: relative; border-radius: var(--r-lg); overflow: hidden; aspect-ratio: 4 / 5; background: linear-gradient(#f6e4c2, #dfe9cf); box-shadow: var(--shadow-2); isolation: isolate; }
+.canvas { position: absolute; inset: 0; }
+.canvas canvas { touch-action: pan-y; }
+.loading { position: absolute; inset: 0; background: linear-gradient(#f6e4c2, #e4ead3 62%, #8bb06a 62.4%); }
+.bar { position: absolute; left: 14px; right: 14px; bottom: 14px; display: flex; gap: 8px; align-items: center; }
+.steps { flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; padding: 5px; border-radius: var(--r-pill); background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.steps button { width: 100%; border: 0; background: none; padding: 9px 4px; border-radius: var(--r-pill); font: 700 0.8rem/1 var(--f-display); color: var(--c-muted); cursor: pointer; transition: background 0.3s, color 0.3s; }
+.steps .done { color: var(--c-forest); }
+.steps .on { background: var(--c-forest); color: #fff; }
+.replay { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(10px); color: var(--c-forest); display: grid; place-items: center; cursor: pointer; }
+@media (max-width: 860px) { .stage { aspect-ratio: 1 / 1; } }

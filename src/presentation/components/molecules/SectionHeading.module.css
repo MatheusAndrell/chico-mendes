@@ -1,0 +1,10 @@
+.head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px 48px; margin-bottom: clamp(32px, 5vw, 56px); flex-wrap: wrap; }
+.head > div:first-child { max-width: 720px; }
+.center { justify-content: center; text-align: center; }
+.center > div:first-child { margin: 0 auto; }
+.title { font-size: clamp(1.9rem, 3.6vw, 2.9rem); }
+.lead { margin-top: 16px; font-size: clamp(1.02rem, 1.4vw, 1.15rem); color: var(--c-muted); max-width: 60ch; }
+.center .lead { margin-left: auto; margin-right: auto; }
+.light .title { color: #fff; }
+.light .lead { color: rgba(255, 255, 255, 0.8); }
+.action { flex: none; }

@@ -1,0 +1,4 @@
+.section { padding: var(--section) 0; }
+.tight { padding: calc(var(--section) * 0.55) 0; }
+.soft { background: var(--c-soft); }
+.forest { background: var(--c-forest); color: #fff; }

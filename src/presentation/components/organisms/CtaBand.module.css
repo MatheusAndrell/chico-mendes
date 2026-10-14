@@ -1,0 +1,7 @@
+.box { position: relative; border-radius: var(--r-lg); overflow: hidden; background: var(--c-forest); padding: clamp(48px, 8vw, 96px) clamp(28px, 6vw, 80px); isolation: isolate; }
+.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.box::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(100deg, rgba(20, 56, 29, 0.92) 25%, rgba(20, 56, 29, 0.55) 70%, rgba(20, 56, 29, 0.25)); }
+.content { max-width: 620px; }
+.title { color: #fff; font-size: clamp(1.9rem, 3.8vw, 3rem); }
+.text { color: rgba(255, 255, 255, 0.85); margin-top: 16px; font-size: 1.1rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }

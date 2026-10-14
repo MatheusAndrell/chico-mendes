@@ -1,0 +1,4 @@
+.tag { display: inline-flex; align-items: center; height: 26px; padding: 0 12px; border-radius: var(--r-pill); font: 700 0.76rem/1 var(--f-display); letter-spacing: 0.02em; white-space: nowrap; }
+.mint { background: var(--c-mint); color: var(--c-forest); }
+.sun { background: var(--c-sun); color: var(--c-forest); }
+.line { border: 1px solid var(--c-line); color: var(--c-muted); }

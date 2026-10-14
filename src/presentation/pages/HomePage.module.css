@@ -1,0 +1,23 @@
+.hero { padding: clamp(32px, 5vw, 72px) 0 clamp(24px, 3vw, 40px); }
+.heroGrid { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
+.h1 { font-size: clamp(2.6rem, 5.8vw, 4.9rem); letter-spacing: -0.03em; line-height: 1.04; }
+.h1 span { color: var(--c-leaf-dark); }
+.lead { margin-top: 24px; font-size: clamp(1.08rem, 1.5vw, 1.25rem); color: var(--c-muted); max-width: 52ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 36px; color: var(--c-muted); font-size: 0.88rem; font-weight: 600; }
+.badges li { display: inline-flex; align-items: center; gap: 8px; }
+.badges li::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--c-sun); box-shadow: 0 0 0 3px rgba(234, 222, 113, 0.35); }
+.about { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(40px, 7vw, 100px); align-items: center; }
+.aboutPhotos { position: relative; padding-right: 22%; padding-bottom: 12%; }
+.aboutSmall { position: absolute !important; right: 0; bottom: 0; width: 44% !important; border: 8px solid var(--c-bg); }
+.p { color: var(--c-muted); margin: -24px 0 22px; max-width: 60ch; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.quote { position: relative; border-radius: var(--r-lg); overflow: hidden; padding: clamp(64px, 12vw, 160px) clamp(28px, 7vw, 96px); isolation: isolate; }
+.quote img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.quote::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(20, 56, 29, 0.78), rgba(20, 56, 29, 0.25)); }
+.cabucu { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 7vw, 100px); align-items: center; }
+@media (max-width: 900px) {
+  .heroGrid, .about, .cabucu { grid-template-columns: 1fr; }
+  .cards { grid-template-columns: 1fr; }
+}
+@media (min-width: 640px) and (max-width: 900px) { .cards { grid-template-columns: 1fr 1fr; } }

@@ -1,0 +1,14 @@
+.footer { background: var(--c-soft); margin-top: var(--section); padding: 72px 0 calc(28px + env(safe-area-inset-bottom)); border-top: 1px solid var(--c-line); }
+.top { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr 1.3fr; gap: 40px; }
+.brand { display: flex; flex-direction: column; gap: 20px; }
+.motto { font: 700 1.02rem/1.5 var(--f-display); color: var(--c-forest); max-width: 30ch; }
+.h { font: 800 0.8rem/1 var(--f-display); letter-spacing: 0.14em; text-transform: uppercase; color: var(--c-leaf-dark); margin-bottom: 18px; }
+.col ul { display: grid; gap: 10px; }
+.col a { display: inline-flex; align-items: center; gap: 8px; color: var(--c-ink); text-decoration: none; font-size: 0.97rem; }
+.col a:hover { color: var(--c-forest); text-decoration: underline; text-underline-offset: 3px; }
+.addr li { font-size: 0.95rem; color: var(--c-muted); line-height: 1.5; }
+.addr strong { display: block; color: var(--c-ink); font-family: var(--f-display); }
+.bottom { margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--c-line); display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; font-size: 0.86rem; color: var(--c-muted); }
+.install { border: 1.5px solid rgba(27, 74, 38, 0.25); background: none; border-radius: var(--r-pill); padding: 8px 16px; font: 700 0.85rem var(--f-display); color: var(--c-forest); cursor: pointer; }
+@media (max-width: 960px) { .top { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .top { grid-template-columns: 1fr; gap: 32px; } }

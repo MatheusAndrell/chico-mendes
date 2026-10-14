@@ -1,0 +1,5 @@
+.row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--c-line); font-size: 0.95rem; }
+.row dt { color: var(--c-muted); }
+.row dd { margin: 0; display: flex; align-items: center; gap: 8px; font-weight: 700; text-align: right; color: var(--c-ink); }
+.copy { width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--c-soft); color: var(--c-forest); display: grid; place-items: center; cursor: pointer; flex: none; }
+.copy:hover { background: var(--c-mint); }

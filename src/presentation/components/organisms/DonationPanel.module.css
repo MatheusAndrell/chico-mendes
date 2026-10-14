@@ -1,0 +1,8 @@
+.panel { background: #fff; border-radius: var(--r-lg); padding: clamp(24px, 3vw, 36px); box-shadow: var(--shadow-2); }
+.head { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 18px; }
+.icon { flex: none; width: 52px; height: 52px; border-radius: 16px; background: var(--c-sun); color: var(--c-forest); display: grid; place-items: center; }
+.title { font-size: 1.35rem; }
+.text { color: var(--c-muted); margin-top: 4px; }
+.pix { display: grid; justify-items: center; gap: 12px; padding: 18px; background: var(--c-soft); border-radius: var(--r-md); margin-bottom: 8px; }
+.pix img { border-radius: 12px; }
+.data { margin: 0; }

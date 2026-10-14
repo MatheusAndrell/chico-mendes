@@ -1,0 +1,20 @@
+.filters { position: sticky; top: calc(var(--header-h) + 8px); z-index: 5; display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 14px; background: rgba(255, 255, 255, 0.94); backdrop-filter: blur(10px); border-radius: var(--r-lg); box-shadow: var(--shadow-1); }
+.search { display: flex; align-items: center; gap: 10px; height: 50px; padding: 0 18px; border-radius: var(--r-pill); background: var(--c-soft); color: var(--c-muted); }
+.search input { flex: 1; border: 0; background: none; font: inherit; color: var(--c-ink); outline: none; min-width: 0; }
+.year select { height: 50px; border-radius: var(--r-pill); border: 0; background: var(--c-soft); padding: 0 40px 0 18px; font: 700 0.92rem var(--f-display); color: var(--c-forest); cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%231b4a26' stroke-width='2'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; }
+.chips { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
+.chips button { height: 36px; padding: 0 16px; border-radius: var(--r-pill); border: 1.5px solid var(--c-line); background: #fff; font: 700 0.85rem var(--f-display); color: var(--c-muted); cursor: pointer; transition: all 0.2s; }
+.chips button:hover { border-color: var(--c-mint-2); color: var(--c-forest); }
+.chips .on { background: var(--c-forest); border-color: var(--c-forest); color: #fff; }
+.chips .on:hover { color: #fff; }
+.count { margin: 28px 4px 8px; color: var(--c-muted); font-size: 0.92rem; }
+.empty { padding: 40px; text-align: center; color: var(--c-muted); background: var(--c-soft); border-radius: var(--r-lg); }
+.group { margin-top: 28px; }
+.groupTitle { display: flex; align-items: center; gap: 12px; font-size: 1.6rem; margin-bottom: 14px; }
+.groupTitle span { font: 700 0.8rem/1 var(--f-display); color: var(--c-forest); background: var(--c-mint); border-radius: var(--r-pill); padding: 6px 10px; }
+.list { display: grid; gap: 10px; }
+@media (max-width: 640px) {
+  .filters { grid-template-columns: 1fr; position: static; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .chips button { flex: none; }
+}

@@ -1,0 +1,2 @@
+.stat strong { display: block; font: 800 clamp(2.2rem, 4.2vw, 3.2rem)/1 var(--f-display); color: var(--c-forest); letter-spacing: -0.02em; }
+.stat span { display: block; margin-top: 10px; color: var(--c-muted); font-size: 0.95rem; max-width: 22ch; line-height: 1.45; }

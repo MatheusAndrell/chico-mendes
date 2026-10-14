@@ -1,0 +1,14 @@
+.channels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.channels a { display: flex; align-items: center; gap: 14px; padding: 18px; background: #fff; border-radius: var(--r-md); box-shadow: var(--shadow-1); text-decoration: none; color: var(--c-ink); font-weight: 700; overflow-wrap: anywhere; transition: transform 0.2s; height: 100%; }
+.channels a:hover { transform: translateY(-2px); }
+.channels small { display: block; font-weight: 600; font-size: 0.78rem; color: var(--c-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.icon { flex: none; width: 44px; height: 44px; border-radius: 14px; background: var(--c-mint); color: var(--c-forest); display: grid; place-items: center; }
+.places { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 28px; }
+.place { background: #fff; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-1); }
+.place iframe { display: block; width: 100%; height: 280px; border: 0; background: var(--c-soft); }
+.placeBody { padding: 22px 24px 26px; }
+.placeBody h3 { font-size: 1.2rem; }
+.placeBody p { color: var(--c-muted); margin-top: 6px; }
+.placeBody a { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font: 800 0.92rem var(--f-display); color: var(--c-forest); }
+@media (max-width: 980px) { .channels { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 720px) { .places, .channels { grid-template-columns: 1fr; } }

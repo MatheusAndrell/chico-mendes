@@ -1,0 +1,70 @@
+/* ─────────────────────────────────────────────────────────────
+   Tokens de design: cores do logotipo e do site da Associação
+   verde-escuro do texto do logo · verde-folha da estrela ·
+   verde-sálvia e amarelo do menu do site
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --c-bg: #fbfaf6;
+  --c-surface: #ffffff;
+  --c-soft: #f2f6ef;
+  --c-mint: #dcecd5;
+  --c-mint-2: #acd5a1;
+  --c-sage: #81a079;
+  --c-leaf: #72bd7c;
+  --c-leaf-dark: #3f8a4c;
+  --c-forest: #1b4a26;
+  --c-forest-2: #25603a;
+  --c-sun: #eade71;
+  --c-ink: #1c2a1f;
+  --c-muted: #5b6a5e;
+  --c-line: #e3e9df;
+
+  --f-display: 'Nunito Variable', 'Nunito', ui-rounded, system-ui, sans-serif;
+  --f-body: 'Nunito Sans Variable', 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --r-sm: 10px;
+  --r-md: 18px;
+  --r-lg: 28px;
+  --r-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(27, 74, 38, 0.05), 0 12px 32px -16px rgba(27, 74, 38, 0.22);
+  --shadow-2: 0 2px 6px rgba(27, 74, 38, 0.06), 0 24px 60px -24px rgba(27, 74, 38, 0.3);
+
+  --container: 1200px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --header-h: 80px;
+  --section: clamp(72px, 10vw, 128px);
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + 16px); }
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-ink);
+  font: 400 1.0625rem/1.65 var(--f-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+img, svg, video, canvas { display: block; max-width: 100%; }
+h1, h2, h3, h4 { font-family: var(--f-display); font-weight: 800; line-height: 1.12; letter-spacing: -0.015em; margin: 0; color: var(--c-forest); }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+a { color: inherit; }
+button { font: inherit; }
+::selection { background: var(--c-mint-2); color: var(--c-forest); }
+:focus-visible { outline: 3px solid var(--c-leaf); outline-offset: 3px; border-radius: 6px; }
+
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: absolute; left: -999px; top: 12px; z-index: 100; background: var(--c-forest); color: #fff; padding: 10px 16px; border-radius: var(--r-pill); }
+.skip-link:focus { left: 12px; }
+
+/* rótulo da árvore dentro do 3D (renderizado pelo drei <Html>) */
+.tree-tag { background: #fff; border-radius: 12px; padding: 6px 12px; box-shadow: var(--shadow-1); white-space: nowrap; text-align: center; font: 600 13px/1.3 var(--f-body); color: var(--c-ink); pointer-events: none; }
+.tree-tag strong { display: block; font-family: var(--f-display); font-weight: 800; color: var(--c-forest); }
+.tree-tag span { font-size: 11px; color: var(--c-muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

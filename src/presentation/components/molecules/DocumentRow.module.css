@@ -1,0 +1,16 @@
+.row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px; padding: 16px 18px; background: var(--c-surface); border-radius: var(--r-md); border: 1px solid var(--c-line); transition: border-color 0.2s, box-shadow 0.2s; }
+.row:hover { border-color: var(--c-mint-2); box-shadow: var(--shadow-1); }
+.icon { width: 44px; height: 44px; border-radius: 12px; background: var(--c-soft); color: var(--c-leaf-dark); display: grid; place-items: center; }
+.info { min-width: 0; }
+.title { display: block; font: 800 0.98rem/1.35 var(--f-display); color: var(--c-forest); text-decoration: none; overflow-wrap: anywhere; }
+.title:hover { text-decoration: underline; text-decoration-color: var(--c-leaf); text-underline-offset: 3px; }
+.meta { display: block; font-size: 0.82rem; color: var(--c-muted); margin-top: 2px; }
+.actions { display: flex; gap: 6px; }
+.btn, .btnIcon { display: inline-flex; align-items: center; justify-content: center; height: 38px; border-radius: var(--r-pill); font: 700 0.85rem var(--f-display); text-decoration: none; color: var(--c-forest); border: 1.5px solid rgba(27, 74, 38, 0.2); transition: background 0.2s, border-color 0.2s; }
+.btn { padding: 0 16px; }
+.btnIcon { width: 38px; }
+.btn:hover, .btnIcon:hover { background: var(--c-soft); border-color: var(--c-forest); }
+@media (max-width: 560px) {
+  .row { grid-template-columns: auto 1fr; padding: 14px; }
+  .actions { grid-column: 2; }
+}

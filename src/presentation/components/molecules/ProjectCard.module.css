@@ -1,0 +1,8 @@
+.card { display: flex; flex-direction: column; background: var(--c-surface); border-radius: var(--r-lg); padding: 10px; text-decoration: none; color: inherit; box-shadow: var(--shadow-1); transition: transform 0.25s, box-shadow 0.25s; height: 100%; }
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
+.body { padding: 20px 14px 14px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.title { font-size: 1.35rem; margin-top: 4px; }
+.text { color: var(--c-muted); font-size: 0.97rem; flex: 1; }
+.more { display: inline-flex; align-items: center; gap: 8px; font: 800 0.92rem var(--f-display); color: var(--c-forest); margin-top: 6px; }
+.card:hover .more svg { transform: translateX(3px); }
+.more svg { transition: transform 0.2s; }

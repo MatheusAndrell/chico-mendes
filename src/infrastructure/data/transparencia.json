@@ -1,0 +1,506 @@
+[
+  {
+    "ordem": 1,
+    "titulo": "CONTRATO WLW ASSESSORIA CONTÁBIL",
+    "arquivo": "contrato-wlw-assessoria-contabil.pdf",
+    "categoria": "contratos",
+    "ano": null,
+    "tamanho": 529430
+  },
+  {
+    "ordem": 2,
+    "titulo": "CONTRATO FAVA ADVOGADOS",
+    "arquivo": "contrato-fava-advogados.pdf",
+    "categoria": "contratos",
+    "ano": null,
+    "tamanho": 1102462
+  },
+  {
+    "ordem": 3,
+    "titulo": "CONTRATO GUARUPASS",
+    "arquivo": "contrato-guarupass.pdf",
+    "categoria": "contratos",
+    "ano": null,
+    "tamanho": 1493233
+  },
+  {
+    "ordem": 4,
+    "titulo": "CRCE",
+    "arquivo": "crce.pdf",
+    "categoria": "parcerias",
+    "ano": null,
+    "tamanho": 827970
+  },
+  {
+    "ordem": 5,
+    "titulo": "PLANO DE TRABALHO 2021",
+    "arquivo": "plano-de-trabalho-2021.pdf",
+    "categoria": "parcerias",
+    "ano": 2021,
+    "tamanho": 1521364
+  },
+  {
+    "ordem": 6,
+    "titulo": "QUADRO DE FUNCIONÁRIOS 2021",
+    "arquivo": "quadro-de-funcionarios-2021.pdf",
+    "categoria": "institucional",
+    "ano": 2021,
+    "tamanho": 178422
+  },
+  {
+    "ordem": 7,
+    "titulo": "PARECER CONCLUSIVO Nº 229/2021",
+    "arquivo": "parecer-conclusivo-n-229-2021.pdf",
+    "categoria": "parcerias",
+    "ano": 2021,
+    "tamanho": 776325
+  },
+  {
+    "ordem": 8,
+    "titulo": "RELATÓRIO QUADRIMESTRAL JAN A ABR 2021",
+    "arquivo": "relatorio-quadrimestral-jan-a-abr-2021.pdf",
+    "categoria": "relatorios",
+    "ano": 2021,
+    "tamanho": 2275178
+  },
+  {
+    "ordem": 9,
+    "titulo": "TERMO DE ABERTURA 2020",
+    "arquivo": "termo-de-abertura-2020.pdf",
+    "categoria": "contabil",
+    "ano": 2020,
+    "tamanho": 7510
+  },
+  {
+    "ordem": 10,
+    "titulo": "LIVRO DIÁRIO 2020",
+    "arquivo": "livro-diario-2020.pdf",
+    "categoria": "contabil",
+    "ano": 2020,
+    "tamanho": 95076
+  },
+  {
+    "ordem": 11,
+    "titulo": "RAZÃO ANALÍTICO 2020",
+    "arquivo": "razao-analitico-2020.pdf",
+    "categoria": "contabil",
+    "ano": 2020,
+    "tamanho": 140923
+  },
+  {
+    "ordem": 12,
+    "titulo": "BALANÇO 2020",
+    "arquivo": "balanco-2020.pdf",
+    "categoria": "contabil",
+    "ano": 2020,
+    "tamanho": 5340
+  },
+  {
+    "ordem": 13,
+    "titulo": "BALANCETE 2020",
+    "arquivo": "balancete-2020.pdf",
+    "categoria": "contabil",
+    "ano": 2020,
+    "tamanho": 10872
+  },
+  {
+    "ordem": 14,
+    "titulo": "RELATÓRIO FÍSICO FINANCEIRO 2020",
+    "arquivo": "relatorio-fisico-financeiro-2020.pdf",
+    "categoria": "relatorios",
+    "ano": 2020,
+    "tamanho": 7116604
+  },
+  {
+    "ordem": 15,
+    "titulo": "QUADRO DE FUNCIONÁRIOS 2020",
+    "arquivo": "quadro-de-funcionarios-2020.pdf",
+    "categoria": "institucional",
+    "ano": 2020,
+    "tamanho": 1003783
+  },
+  {
+    "ordem": 16,
+    "titulo": "RELATÓRIO QUADRIMESTRAL JAN A ABR 2020",
+    "arquivo": "relatorio-quadrimestral-jan-a-abr-2020.pdf",
+    "categoria": "relatorios",
+    "ano": 2020,
+    "tamanho": 2190947
+  },
+  {
+    "ordem": 17,
+    "titulo": "RELATÓRIO QUADRIMESTRAL MAIO A AGO 2020",
+    "arquivo": "relatorio-quadrimestral-maio-a-ago-2020.pdf",
+    "categoria": "relatorios",
+    "ano": 2020,
+    "tamanho": 3497744
+  },
+  {
+    "ordem": 18,
+    "titulo": "RELATÓRIO QUADRIMESTRAL SET A DEZ 2020",
+    "arquivo": "relatorio-quadrimestral-set-a-dez-2020.pdf",
+    "categoria": "relatorios",
+    "ano": 2020,
+    "tamanho": 1155336
+  },
+  {
+    "ordem": 19,
+    "titulo": "PARECER CONCLUSIVO N° 177/2020",
+    "arquivo": "parecer-conclusivo-n-177-2020.pdf",
+    "categoria": "parcerias",
+    "ano": 2020,
+    "tamanho": 1100758
+  },
+  {
+    "ordem": 20,
+    "titulo": "RELATÓRIO TRIMESTRAL JAN A MAR 2019",
+    "arquivo": "relatorio-trimestral-jan-a-mar-2019.pdf",
+    "categoria": "relatorios",
+    "ano": 2019,
+    "tamanho": 1910207
+  },
+  {
+    "ordem": 21,
+    "titulo": "RELATÓRIO TRIMESTRAL ABR A JUN 2019",
+    "arquivo": "relatorio-trimestral-abr-a-jun-2019.pdf",
+    "categoria": "relatorios",
+    "ano": 2019,
+    "tamanho": 2244263
+  },
+  {
+    "ordem": 22,
+    "titulo": "RELATÓRIO TRIMESTRAL OUT A DEZ 2019",
+    "arquivo": "relatorio-trimestral-out-a-dez-2019.pdf",
+    "categoria": "relatorios",
+    "ano": 2019,
+    "tamanho": 3334568
+  },
+  {
+    "ordem": 23,
+    "titulo": "APOSTILAMENTO 2019 AO TERMO Nº 005624/2017",
+    "arquivo": "apostilamento-2019-ao-termo-n-005624-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2019,
+    "tamanho": 734927
+  },
+  {
+    "ordem": 24,
+    "titulo": "PLANO DE TRABALHO 2019",
+    "arquivo": "plano-de-trabalho-2019.pdf",
+    "categoria": "parcerias",
+    "ano": 2019,
+    "tamanho": 3266190
+  },
+  {
+    "ordem": 25,
+    "titulo": "Parecer Conclusivo N° 51/2019",
+    "arquivo": "parecer-conclusivo-n-51-2019.pdf",
+    "categoria": "parcerias",
+    "ano": 2019,
+    "tamanho": 536507
+  },
+  {
+    "ordem": 26,
+    "titulo": "RELATÓRIO FÍSICO FINANCEIRO 2019",
+    "arquivo": "relatorio-fisico-financeiro-2019.pdf",
+    "categoria": "relatorios",
+    "ano": 2019,
+    "tamanho": 9628134
+  },
+  {
+    "ordem": 27,
+    "titulo": "TERMO DE ABERTURA LIVRO 2019",
+    "arquivo": "termo-de-abertura-livro-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 7517
+  },
+  {
+    "ordem": 28,
+    "titulo": "BALANÇO 2019",
+    "arquivo": "balanco-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 5324
+  },
+  {
+    "ordem": 29,
+    "titulo": "BALANCETE 2019",
+    "arquivo": "balancete-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 12291
+  },
+  {
+    "ordem": 30,
+    "titulo": "DEMONSTRAÇÃO 2019",
+    "arquivo": "demonstracao-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 7151
+  },
+  {
+    "ordem": 31,
+    "titulo": "RAZÃO ANALÍTICO 2019",
+    "arquivo": "razao-analitico-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 173804
+  },
+  {
+    "ordem": 32,
+    "titulo": "LIVRO DIÁRIO 2019",
+    "arquivo": "livro-diario-2019.pdf",
+    "categoria": "contabil",
+    "ano": 2019,
+    "tamanho": 104932
+  },
+  {
+    "ordem": 33,
+    "titulo": "RELATÓRIO TRIMESTRAL ABR A JUN 2018",
+    "arquivo": "relatorio-trimestral-abr-a-jun-2018.pdf",
+    "categoria": "relatorios",
+    "ano": 2018,
+    "tamanho": 2701434
+  },
+  {
+    "ordem": 34,
+    "titulo": "RELATÓRIO TRIMESTRAL JUL A SET 2018",
+    "arquivo": "relatorio-trimestral-jul-a-set-2018.pdf",
+    "categoria": "relatorios",
+    "ano": 2018,
+    "tamanho": 2782623
+  },
+  {
+    "ordem": 35,
+    "titulo": "RELATÓRIO TRIMESTRAL OUT A DEZ 2018",
+    "arquivo": "relatorio-trimestral-out-a-dez-2018.pdf",
+    "categoria": "relatorios",
+    "ano": 2018,
+    "tamanho": 4994241
+  },
+  {
+    "ordem": 36,
+    "titulo": "Parecer Conclusivo N° 260/2018",
+    "arquivo": "parecer-conclusivo-n-260-2018.pdf",
+    "categoria": "parcerias",
+    "ano": 2018,
+    "tamanho": 488876
+  },
+  {
+    "ordem": 37,
+    "titulo": "RELATÓRIO FÍSICO FINANCEIRO 2018",
+    "arquivo": "relatorio-fisico-financeiro-2018.pdf",
+    "categoria": "relatorios",
+    "ano": 2018,
+    "tamanho": 19805316
+  },
+  {
+    "ordem": 38,
+    "titulo": "BALANCETE 2018",
+    "arquivo": "balancete-2018.pdf",
+    "categoria": "contabil",
+    "ano": 2018,
+    "tamanho": 10659
+  },
+  {
+    "ordem": 39,
+    "titulo": "BALANÇO 2018",
+    "arquivo": "balanco-2018.pdf",
+    "categoria": "contabil",
+    "ano": 2018,
+    "tamanho": 5324
+  },
+  {
+    "ordem": 40,
+    "titulo": "DEMONSTRAÇÃO 2018",
+    "arquivo": "demonstracao-2018.pdf",
+    "categoria": "contabil",
+    "ano": 2018,
+    "tamanho": 585097
+  },
+  {
+    "ordem": 41,
+    "titulo": "RAZÃO ANALÍTICO 2018",
+    "arquivo": "razao-analitico-2018.pdf",
+    "categoria": "contabil",
+    "ano": 2018,
+    "tamanho": 164763
+  },
+  {
+    "ordem": 42,
+    "titulo": "LIVRO DIÁRIO 2018",
+    "arquivo": "livro-diario-2018.pdf",
+    "categoria": "contabil",
+    "ano": 2018,
+    "tamanho": 104932
+  },
+  {
+    "ordem": 43,
+    "titulo": "RELATÓRIO FÍSICO FINANCEIRO 2017",
+    "arquivo": "relatorio-fisico-financeiro-2017.pdf",
+    "categoria": "relatorios",
+    "ano": 2017,
+    "tamanho": 11781570
+  },
+  {
+    "ordem": 44,
+    "titulo": "BALANCETE 2017",
+    "arquivo": "balancete-2017.pdf",
+    "categoria": "contabil",
+    "ano": 2017,
+    "tamanho": 9758
+  },
+  {
+    "ordem": 45,
+    "titulo": "BALANÇO 2017",
+    "arquivo": "balanco-2017.pdf",
+    "categoria": "contabil",
+    "ano": 2017,
+    "tamanho": 5276
+  },
+  {
+    "ordem": 46,
+    "titulo": "DEMONSTRAÇÃO 2017",
+    "arquivo": "demonstracao-2017.pdf",
+    "categoria": "contabil",
+    "ano": 2017,
+    "tamanho": 7407
+  },
+  {
+    "ordem": 47,
+    "titulo": "RAZÃO ANALITICO 2017",
+    "arquivo": "razao-analitico-2017.pdf",
+    "categoria": "contabil",
+    "ano": 2017,
+    "tamanho": 270660
+  },
+  {
+    "ordem": 48,
+    "titulo": "LIVRO DIÁRIO 2017",
+    "arquivo": "livro-diario-2017.pdf",
+    "categoria": "contabil",
+    "ano": 2017,
+    "tamanho": 189894
+  },
+  {
+    "ordem": 49,
+    "titulo": "TERMO DE COLABORAÇÃO 2017",
+    "arquivo": "termo-de-colaboracao-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 8012138
+  },
+  {
+    "ordem": 50,
+    "titulo": "PLANO DE TRABALHO 2017",
+    "arquivo": "plano-de-trabalho-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 3447603
+  },
+  {
+    "ordem": 51,
+    "titulo": "ADITAMENTO 01 2017",
+    "arquivo": "aditamento-01-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 1016296
+  },
+  {
+    "ordem": 52,
+    "titulo": "ADITAMENTO 02 2017",
+    "arquivo": "aditamento-02-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 1006343
+  },
+  {
+    "ordem": 53,
+    "titulo": "ADITAMENTO 03 2017",
+    "arquivo": "aditamento-03-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 340146
+  },
+  {
+    "ordem": 54,
+    "titulo": "ADITAMENTO 04 2017",
+    "arquivo": "aditamento-04-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 565478
+  },
+  {
+    "ordem": 55,
+    "titulo": "ADITAMENTO 05 2017",
+    "arquivo": "aditamento-05-2017.pdf",
+    "categoria": "parcerias",
+    "ano": 2017,
+    "tamanho": 455451
+  },
+  {
+    "ordem": 56,
+    "titulo": "CONTRATO DE ALUGUEL 2017-2019",
+    "arquivo": "contrato-de-aluguel-2017-2019.pdf",
+    "categoria": "contratos",
+    "ano": 2017,
+    "tamanho": 994299
+  },
+  {
+    "ordem": 57,
+    "titulo": "CONTRATO DE ALUGUEL 2019-2021",
+    "arquivo": "contrato-de-aluguel-2019-2021.pdf",
+    "categoria": "contratos",
+    "ano": 2019,
+    "tamanho": 1108281
+  },
+  {
+    "ordem": 58,
+    "titulo": "ESTATUTO",
+    "arquivo": "estatuto.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 4967026
+  },
+  {
+    "ordem": 59,
+    "titulo": "ATA",
+    "arquivo": "ata.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 6330087
+  },
+  {
+    "ordem": 60,
+    "titulo": "PRESTADORES DE SERVIÇOS",
+    "arquivo": "prestadores-de-servicos.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 346328
+  },
+  {
+    "ordem": 61,
+    "titulo": "RELAÇÃO NOMINAL DOS DIRIGENTES",
+    "arquivo": "relacao-nominal-dos-dirigentes.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 301936
+  },
+  {
+    "ordem": 62,
+    "titulo": "CERTIFICADO DE CREDENCIAMENTO",
+    "arquivo": "certificado-de-credenciamento.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 1824509
+  },
+  {
+    "ordem": 63,
+    "titulo": "REGULAMENTO DE COMPRAS E CONTRATAÇÃO DE PESSOAL",
+    "arquivo": "regulamento-de-compras-e-contratacao-de-pessoal.pdf",
+    "categoria": "institucional",
+    "ano": null,
+    "tamanho": 2058336
+  }
+]

@@ -1,0 +1,26 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  border-radius: var(--r-pill); border: 1.5px solid transparent;
+  font: 700 0.98rem/1 var(--f-display); letter-spacing: 0.005em;
+  text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: none; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+.btn svg { width: 18px; height: 18px; flex: none; }
+.md { min-height: 50px; padding: 0 24px; }
+.sm { min-height: 40px; padding: 0 18px; font-size: 0.9rem; }
+.lg { min-height: 56px; padding: 0 30px; font-size: 1.05rem; }
+.block { width: 100%; }
+.primary { background: var(--c-forest); color: #fff; box-shadow: 0 8px 20px -10px rgba(27, 74, 38, 0.6); }
+.primary:hover { background: var(--c-forest-2); }
+.secondary { border-color: rgba(27, 74, 38, 0.25); color: var(--c-forest); background: transparent; }
+.secondary:hover { border-color: var(--c-forest); background: rgba(27, 74, 38, 0.04); }
+.leaf { background: var(--c-leaf); color: var(--c-forest); }
+.leaf:hover { background: #82c98b; }
+.light { background: #fff; color: var(--c-forest); }
+.light:hover { background: var(--c-soft); }
+.ghost { color: var(--c-forest); padding-left: 0; padding-right: 0; min-height: auto; background: none; }
+.ghost:hover { transform: none; color: var(--c-leaf-dark); }
+.ghost span { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 5px; text-decoration-color: var(--c-leaf); }
