@@ -1,13 +1,11 @@
 import { Suspense, useEffect } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
-import { useOnline } from '../../hooks/useOnline'
 import { SiteFooter, SiteHeader } from '../organisms'
 import s from './SiteLayout.module.css'
 
 /** Template: estrutura de todas as páginas (cabeçalho, conteúdo, rodapé). */
 export function SiteLayout() {
   const { pathname, hash } = useLocation()
-  const online = useOnline()
 
   useEffect(() => {
     if (hash) {
@@ -27,7 +25,6 @@ export function SiteLayout() {
         </Suspense>
       </main>
       <SiteFooter />
-      {!online && <div className={s.offline} role="status">Você está sem conexão. O conteúdo já visitado continua disponível.</div>}
     </>
   )
 }

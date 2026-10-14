@@ -1,14 +1,12 @@
 import { Link } from 'react-router-dom'
 import { content } from '../../../application/content/contentService'
 import { MENU } from '../../../app/routes'
-import { useInstallPrompt } from '../../hooks/useInstallPrompt'
 import { Container, Icon, Logo } from '../atoms'
 import s from './SiteFooter.module.css'
 
 const { ORGANIZACAO: ORG, FRASES } = content
 
 export function SiteFooter() {
-  const { canInstall, install } = useInstallPrompt()
   return (
     <footer className={s.footer}>
       <Container>
@@ -52,11 +50,6 @@ export function SiteFooter() {
         </div>
         <div className={s.bottom}>
           <p>{ORG.nome} · CNPJ {ORG.cnpj}</p>
-          {canInstall && (
-            <button type="button" className={s.install} onClick={install}>
-              Instalar o app
-            </button>
-          )}
         </div>
       </Container>
     </footer>

@@ -4,7 +4,7 @@
 
 # Chico Mendes · Cabuçu
 
-**Nova proposta de site (PWA) para a Associação Cultural e Ambiental Chico Mendes**
+**Nova proposta de site para a Associação Cultural e Ambiental Chico Mendes**
 Cabuçu · Guarulhos/SP
 
 *“Se você gosta, preserve! Se não gosta, respeite! Pois vidas precisam dela, inclusive a sua!”*
@@ -26,7 +26,7 @@ O site atual da Associação foi feito em Wix há alguns anos e está desatualiz
 - valorize o trabalho da Associação e a história do bairro;
 - facilite doações, voluntariado e parcerias;
 - dê transparência total às contas, com todos os documentos públicos organizados e pesquisáveis;
-- funcione bem no celular e possa ser instalado como aplicativo (PWA), inclusive com conexão fraca;
+- funcione bem no celular, seja leve e carregue rápido mesmo com conexão fraca;
 - aproxime as pessoas da causa com uma experiência interativa em 3D: a semente que vira floresta e a **Floresta Viva**, onde cada visitante planta a sua árvore nativa.
 
 > Este repositório é uma proposta independente e sem fins lucrativos. O nome, o logotipo, as fotos, os textos institucionais e os documentos da transparência pertencem à Associação Cultural e Ambiental Chico Mendes e foram usados com o objetivo de construir o site para ela.
@@ -41,14 +41,14 @@ O site atual da Associação foi feito em Wix há alguns anos e está desatualiz
 | 💚 **Como ajudar** | Dados bancários com botão de copiar e PIX copia e cola com QR Code, gerado automaticamente quando a chave é configurada. Também lista as doações de itens, o voluntariado e as parcerias. |
 | 📰 **Blog** | Os informativos da Associação, com a imagem original e o texto transcrito (acessível a leitores de tela). |
 | 🗺️ **Contato** | Telefone, e-mail, redes sociais e mapas das duas unidades. |
-| 📱 **PWA** | Pode ser instalado no celular e funciona offline nas páginas já visitadas. |
+| 📱 **Responsivo** | Layout pensado primeiro para o celular, com páginas carregadas sob demanda. |
 
 As páginas seguem o mesmo menu e os mesmos endereços do site atual (`/sobrenos`, `/projetos`, `/cabucu`, `/comoajudar`, `/transparencia`, `/blog` e `/contato`). Assim, links antigos continuam funcionando.
 
 ## Tecnologias
 
 - [React 18](https://react.dev/) + [React Router 6](https://reactrouter.com/)
-- [Vite 5](https://vitejs.dev/) + [vite-plugin-pwa](https://vite-pwa-org.netlify.app/)
+- [Vite 5](https://vitejs.dev/)
 - [Three.js](https://threejs.org/) com [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) e drei
 - CSS Modules, com as fontes Nunito e Nunito Sans
 - Deploy na [Vercel](https://vercel.com/)

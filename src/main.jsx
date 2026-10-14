@@ -5,12 +5,9 @@ import '@fontsource-variable/nunito-sans'
 import './presentation/styles/global.css'
 import App from './app/App'
 
-if (import.meta.env.PROD) {
-  // PWA (cache offline) só no site publicado
-  import('virtual:pwa-register').then(({ registerSW }) => registerSW({ immediate: true }))
-} else if ('serviceWorker' in navigator) {
-  // Em desenvolvimento, remove service workers e caches de versões antigas
-  // que possam estar servindo arquivos desatualizados em localhost.
+// O site não é um PWA. Quem visitou uma versão anterior pode ter um service
+// worker instalado: ele é removido aqui, junto com os caches que ele criou.
+if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then((regs) => regs.forEach((r) => r.unregister()))
   if (window.caches) caches.keys().then((keys) => keys.forEach((k) => caches.delete(k)))
 }
