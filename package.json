@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "transparencia": "python scripts/organizar-transparencia.py"
+    "transparencia": "python scripts/organizar-transparencia.py",
+    "fotos": "node scripts/baixar-fotos.mjs"
   },
   "dependencies": {
     "@fontsource-variable/nunito": "5.1.0",

@@ -12,7 +12,7 @@ export default function CabucuPage() {
       eyebrow="O Cabuçu"
       title="Descobrir o passado é planejar o futuro"
       lead={CABUCU.intro[0]}
-      foto={FOTOS.represaAerea}
+      foto={FOTOS.represa}
     >
       <Section>
         <Container>

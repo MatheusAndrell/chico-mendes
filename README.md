@@ -120,7 +120,7 @@ Todo o conteúdo fica em `src/infrastructure/data/`. Não é preciso mexer nos c
 | O quê | Onde |
 |---|---|
 | Textos institucionais, projetos, história, doação | `content.js` |
-| Fotos | `media.js` |
+| Fotos | `fotos.json` (lista) + `public/fotos/` (arquivos) |
 | Publicações do blog | `blog.js`; a imagem vai em `public/blogs/` |
 | Espécies da Floresta Viva | `species.js` |
 | Documentos da transparência | PDFs em `public/docs/` + `scripts/organizar-transparencia.py` |
@@ -133,12 +133,19 @@ Todo o conteúdo fica em `src/infrastructure/data/`. Não é preciso mexer nos c
 2. Inclua o título que deve aparecer no site na lista do script.
 3. Rode `npm run transparencia`. O script renomeia o arquivo e atualiza o índice.
 
+**Fotos do site antigo:** o site da Associação no Wix será descontinuado. Para trazer as fotos para o projeto, rode:
+
+```bash
+npm run fotos
+```
+
+O script baixa as 32 fotos para `public/fotos/` (WebP ou JPEG, até 1920px) e marca cada uma em `fotos.json`. A partir daí o site usa as cópias locais. Ele pode ser rodado de novo sem problema: pula o que já foi baixado. Enquanto uma foto não estiver baixada, ela continua vindo do Wix.
+
 **PIX:** preencha `DOACAO.pixChave` em `content.js`. O QR Code e o código copia e cola aparecem sozinhos.
 
 ## Próximos passos
 
 - [ ] Receber a chave PIX da Associação
-- [ ] Hospedar as fotos no próprio projeto (hoje vêm do site atual)
 - [ ] Floresta Viva compartilhada entre todos os visitantes (com banco de dados)
 - [ ] Painel simples para a equipe da ONG publicar no blog sem mexer em código
 - [ ] Domínio próprio, se a Associação adotar o novo site
