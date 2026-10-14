@@ -30,7 +30,7 @@ export function SiteHeader() {
           <ul>
             {MENU.map((m) => (
               <li key={m.to}>
-                <NavLink to={m.to} end={m.to === '/'} className={({ isActive }) => (isActive ? s.active : undefined)}>
+                <NavLink to={m.to} end={m.to === '/'} onClick={() => setOpen(false)} className={({ isActive }) => (isActive ? s.active : undefined)}>
                   {m.label}
                 </NavLink>
               </li>
